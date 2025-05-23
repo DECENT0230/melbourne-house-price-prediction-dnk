@@ -5,7 +5,7 @@ import numpy as np
 
 # Load the trained model and scaler
 model = joblib.load('final_predictor/best_model.joblib')
-scaler = joblib.load('scaler.joblib')
+scaler = joblib.load('final_predictor/scaler.joblib')
 
 # Streamlit app
 st.title("🏡 Melbourne House Price Prediction")
